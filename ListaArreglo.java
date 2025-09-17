@@ -8,7 +8,6 @@ public class ListaArreglo<T> implements Lista<T>{
     //La cantidad de elementos dentro de la lista
     private int indice;
 
-    @SuppressWarnings("unchecked")
     public ListaArreglo(){
         super();
         this.lista = (T[])new Object[10];
