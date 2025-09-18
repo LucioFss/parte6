@@ -14,7 +14,7 @@ public class TetsCola {
         cola1.imprimir();
         cola1.vaciar();
         System.out.println(cola1.esVacia());
-
+        
         ColaListaEnlazada<String> cola2 = new ColaListaEnlazada<>();
         cola2.encolar("LUCAS");
         cola2.encolar("RAFA");
